@@ -30,6 +30,14 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-webpack-loader"
+version = "1.1.0"
+description = "Transparently use webpack with django"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pytz"
 version = "2021.1"
 description = "World timezone definitions, modern and historical"
@@ -56,7 +64,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "10c7d9c2c24236e3d5701b5ff6e593fd350be27b047b23d6f89b06069352fe42"
+content-hash = "e4f44992c82d1bb29fc94fc2d09f77b1de59ae7c46a3a7bf9c82b63b0e6c51a1"
 
 [metadata.files]
 asgiref = [
@@ -66,6 +74,10 @@ asgiref = [
 django = [
     {file = "Django-3.2.4-py3-none-any.whl", hash = "sha256:ea735cbbbb3b2fba6d4da4784a0043d84c67c92f1fdf15ad6db69900e792c10f"},
     {file = "Django-3.2.4.tar.gz", hash = "sha256:66c9d8db8cc6fe938a28b7887c1596e42d522e27618562517cc8929eb7e7f296"},
+]
+django-webpack-loader = [
+    {file = "django-webpack-loader-1.1.0.tar.gz", hash = "sha256:c7f89a272a177a17a045ceab26bbb7e35d28ca5597c384de96817784b610c977"},
+    {file = "django_webpack_loader-1.1.0-py2.py3-none-any.whl", hash = "sha256:8a428355de2f88418209d84ad38bf33ad175fc370d3f778ffec8ea26041e589d"},
 ]
 pytz = [
     {file = "pytz-2021.1-py2.py3-none-any.whl", hash = "sha256:eb10ce3e7736052ed3623d49975ce333bcd712c7bb19a58b9e2089d4057d0798"},
