@@ -1,24 +1,21 @@
 # django_vue
 
-## Project setup
+## セットアップ
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+$ yarn install
+$ poetry install
 ```
 
-### Compiles and minifies for production
+### ローカルでの起動方法
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
+$ docker-compose up -d
+$ yarn serve
+$ python manage.py runserver
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Django 側にアクセスする: [http://localhost:8000](http://localhost:8000)
+
+### ビルド
+```
+$ yarn build
+```
